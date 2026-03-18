@@ -32,10 +32,10 @@ def index():
 
 @app.route("/add", methods=["POST"])
 def add_tasks():
-    subject = request.form['subject']
-    description = request.form['description']
-    due_date = request.form['due_date']
-    conn = get_db()
+    subject = request.form['subject'] # maths
+    description = request.form['description'] # test
+    due_date = request.form['due_date'] # tomorrow
+    conn = get_db() 
     cursor = conn.cursor()
     cursor.execute("INSERT INTO tasks (subject, description, due_date, done) VALUES (?, ?, ?, ?)",
                    (subject, description, due_date, 0))
