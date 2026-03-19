@@ -27,7 +27,7 @@ Tasks are stored in a SQLite database. When you click "Get Study Recommendation"
 - Full deployment pipeline from local development to live URL
 - How to use claude code for styling and basic prompting
 
-  Overall, this projects has deepend my understanding in multiple fields of coding which will be transfered into future projects. Obviously this was much more challenging then making a simple task organiser in the command line but it was a very fun and rewarding project!
+  Overall, this projects has deepend my understanding in multiple fields of coding which will be transfered into future projects. Obviously this was much more challenging then making a simple task organiser in the command line but it was a very fun and rewarding project! As i am only 14 years old I am very keen to see where the future takes me and hey maybe one day ill look back where I started!
 
 ## Setup
 ```bash
